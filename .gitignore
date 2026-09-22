@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Next.js
+**/node_modules/
+**/.next/
+**/out/
+
+# Temporary files
+**/temp/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
